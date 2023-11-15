@@ -1,0 +1,106 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html {
+  background: #d09242;
+  background: #d09242 linear-gradient(#e29430, #d09242) fixed;
+}
+
+header ul li {
+    border-right: none;
+}
+
+header {
+  background: linear-gradient(#0087aa, #0087aa);
+  
+  h1 {
+    color: #fcf4bb;
+    text-shadow: rgba(#9b7e71, 0.9) 0 .25px 0;
+  }
+  
+  p {
+    color: #fffbe8;
+    
+    &.view {
+      text-shadow:rgba(#fff, 0.9) 0 .5px 0;
+      
+      a {
+        color: #e795c4;
+      }
+    }
+  }
+  
+  ul {
+    background: #e795c4;
+    background: linear-gradient(#e795c4, #e795c4);
+  }
+}
+
+a {
+  color: #e795c4;
+  font-weight: bold;
+}
+
+section {
+  background: linear-gradient(#0087aa, #0087aa 700px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fcf4bb; 
+}
+
+h1, h2 {
+  color: #fcf4bb;
+}
+
+h3, h4, h5, h6 {
+  color: #fef7d2;
+}
+
+p, li {
+  color: #fffbe8;
+}
+
+img {
+  margin: auto;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.video {
+  max-width: 700px;
+}
+
+.logo {
+  max-width: 30px;
+  max-height: 25px;
+}
+
+.portfolio-logo {
+  max-width: 45px;
+  max-height: 37.5px;
+}
+
+.portfolio-logo-with-text {
+  max-width: 160px;
+  max-height: 50px;
+}
+
+.company-logo {
+  max-width: 165px;
+}
+
+.top-menu {
+  margin: 0 auto;
+
+}
+
+@media print, screen and (max-width: 740px) {
+  header, section {
+    border-radius: 0;
+  }
+}
